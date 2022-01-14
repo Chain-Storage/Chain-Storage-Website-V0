@@ -1,6 +1,6 @@
-# Chain Storage Api
+# Chain Storage Website
 
-This is Chain Storage Node.js api maded from Yurikaza
+This is Chain Storage Node.js and React.js Website made from Yurikaza
 
 Chain Storage is decentralize storage application provices you to storage files on IPFS storage system.
 
@@ -34,6 +34,15 @@ ADMIN_WALLET=<ganache public key>
 yarn install
 
 yarn start:dev
+```
+
+### Start React.js server
+```
+cd client
+
+yarn
+
+yarn start
 ```
 
 Connect Us:
