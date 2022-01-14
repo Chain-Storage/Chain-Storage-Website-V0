@@ -1,0 +1,16 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.right.div {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.rigth {
+  display: flex;
+}
