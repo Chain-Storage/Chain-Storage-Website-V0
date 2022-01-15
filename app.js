@@ -44,4 +44,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
-module.exports = app;
+const server = app.listen(process.env.PORT || 6000, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
+
+// module.exports = app;

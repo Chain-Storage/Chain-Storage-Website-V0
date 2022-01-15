@@ -28,7 +28,7 @@
     "node.js": "cd .. && cd backend && yarn start:dev",
     "startReact:dev": "concurrently --kill-others-on-fail \"npm run node.js\" \"npm run start\""
   },
-  "proxy": "https://chain-storage-test-seven.herokuapp.com",
+  "proxy": "http://localhost:6000",
   "eslintConfig": {
     "extends": [
       "react-app",

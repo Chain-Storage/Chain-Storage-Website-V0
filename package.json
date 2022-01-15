@@ -4,9 +4,9 @@
   "main": "app.js",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "debug": "ndb ./bin/www",
-    "node:dev": "nodemon ./bin/www",
+    "start": "node app.js",
+    "debug": "ndb app.js",
+    "node:dev": "nodemon app.js",
     "react:dev": "cd client && yarn start",
     "start:dev": "concurrently --kill-others-on-fail \"yarn node:dev\" \"yarn react:dev\"",
     "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn build"
