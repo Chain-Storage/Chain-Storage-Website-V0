@@ -9,7 +9,7 @@
     "node:dev": "nodemon ./bin/www",
     "react:dev": "cd client && yarn start",
     "start:dev": "concurrently --kill-others-on-fail \"yarn node:dev\" \"yarn react:dev\"",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
